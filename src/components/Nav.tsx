@@ -73,7 +73,7 @@ export default function Nav({ showReset, onReset }: NavProps) {
           </button>
         )}
         <a
-          href="http://localhost:8000/docs"
+          href={`${import.meta.env.VITE_API_URL}/docs`}
           target="_blank"
           rel="noreferrer"
           style={{
